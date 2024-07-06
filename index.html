@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Squaring Game</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+        <link rel="stylesheet" href="division.css">
+    </head>
+
+
+    <body>
+        <div id="logo">
+            <img src="website-logo.png" alt="Website Logo">
+        </div>
+        <h1>Squaring Game</h1>
+        <div id="container">
+            <div id="score">
+                Score : <span id="scorevalue">0</span>
+            </div>
+            <div id="correct">
+                Correct
+            </div>
+            <div id="wrong">
+                Try Again
+            </div>
+            <div id="question">
+            <!-- Countdown Page-->
+
+        <div class="card" id="countdown-page" hidden>
+            <h1 class="countdown"></h1>
+        </div>
+
+            </div>
+            <div id="instruction">
+                Click on the Correct Answer
+            </div>
+            <div id="choices">
+                <div id="box1" class="box"></div>
+                <div id="box2" class="box"></div>
+                <div id="box3" class="box"></div>
+                <div id="box4" class="box"></div>
+            </div>
+            <div id="startreset">
+                Start Game
+            </div>
+            <div id="timeremaining">
+                Time remaining :
+                <span id="timeremainingvalue">60</span>
+                sec
+            </div>
+            <div id="gameOver">
+            </div>
+        </div>
+
+
+        <!-- script -->
+        <script type="text/javascript" src="division.js"></script>
+        <script type="text/javascript" src="question.js"></script>
+        <audio id="correctAnswerSound" src="correct-6033.mp3" type="audio/mp3"></audio>
+    <audio id="IncorrectAnswerSound" src="buzzer-or-wrong-answer-20582 (1).mp3" type="audio/mp3"></audio>
+        
+    </body>
+
+</html>
